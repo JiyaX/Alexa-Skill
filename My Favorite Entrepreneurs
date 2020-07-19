@@ -1,1 +1,116 @@
 
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my favorite entrepreneurs",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "bio",
+                    "slots": [
+                        {
+                            "name": "entrepreneur",
+                            "type": "entrepreneurNames"
+                        },
+                        {
+                            "name": "businessman",
+                            "type": "entrepreneurNames"
+                        },
+                        {
+                            "name": "businesswoman",
+                            "type": "entrepreneurNames"
+                        }
+                    ],
+                    "samples": [
+                        "tell me about {businessman}",
+                        "tell me about {businesswoman}",
+                        "what did {businesswoman} build",
+                        "what did {businessman} build",
+                        "what did {entrepreneur} build",
+                        "who is {entrepreneur}",
+                        "tell me about {entrepreneur}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "entrepreneurNames",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Azim Premji"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dhirubai Ambani"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mark Zuckerberg"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ratan Tata"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Elon Musk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bill Gates"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jeff Bozos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mukesh Ambani"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
